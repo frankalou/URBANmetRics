@@ -1,11 +1,15 @@
 Package: URBANmetRics
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Urban Structure Metrics from OpenStreetMap
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Franka", "L.", email = "fhlou16@gmail.com", 
+           role = c("aut", "cre"))
+Description: Provides a modular workflow to extract urban structures 
+    (buildings, green spaces, transport infrastructure) from OpenStreetMap, 
+    compute geometry-based metrics, and combine them into an integrated 
+    urban index. The package currently includes structure extraction, 
+    classification, metric computation, and index calculation.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
@@ -13,4 +17,8 @@ URL: https://github.com/frankalou/URBANmetRics
 BugReports: https://github.com/frankalou/URBANmetRics/issues
 Imports:
     sf,
-    osmdata
+    osmdata,
+    dplyr
+
+
+

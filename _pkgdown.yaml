@@ -1,0 +1,23 @@
+template:
+  bootstrap: 5
+
+logo: man/figures/logo_Urbanmetrics.png
+
+navbar:
+  structure:
+    left: [reference, articles]
+    right: [github]
+
+home:
+  title: "URBANmetRics"
+  description: "An R package for computing urban structure metrics."
+
+reference:
+  - title: "Core Functions"
+    contents:
+      - starts_with("building")
+      - starts_with("osm")
+      - starts_with("green")
+      - starts_with("transport")
+      - starts_with("urban")
+
